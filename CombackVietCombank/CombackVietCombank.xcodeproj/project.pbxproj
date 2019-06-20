@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5B3966FA22B9D9B7003541F9 /* HouseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3966F922B9D9B7003541F9 /* HouseController.swift */; };
 		5B3966FD22B9E6FC003541F9 /* UIView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3966FC22B9E6FC003541F9 /* UIView + Extension.swift */; };
 		5B3E982D22BB72CB005ED6E0 /* CarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3E982C22BB72CB005ED6E0 /* CarViewController.swift */; };
 		5B3E982F22BB72E6005ED6E0 /* ComputerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3E982E22BB72E6005ED6E0 /* ComputerViewController.swift */; };
@@ -15,6 +14,7 @@
 		5B3E983322BB730C005ED6E0 /* StudyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3E983222BB730C005ED6E0 /* StudyViewController.swift */; };
 		5B3E983522BB731A005ED6E0 /* WeddingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3E983422BB731A005ED6E0 /* WeddingViewController.swift */; };
 		5B3E983722BB7329005ED6E0 /* BabyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3E983622BB7329005ED6E0 /* BabyViewController.swift */; };
+		5B3E985822BB7A55005ED6E0 /* HouseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3E985722BB7A55005ED6E0 /* HouseViewController.swift */; };
 		5BB6DC3322B75FAE00EFFAA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB6DC3222B75FAE00EFFAA7 /* AppDelegate.swift */; };
 		5BB6DC3522B75FAE00EFFAA7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB6DC3422B75FAE00EFFAA7 /* ViewController.swift */; };
 		5BB6DC3822B75FAE00EFFAA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BB6DC3622B75FAE00EFFAA7 /* Main.storyboard */; };
@@ -42,7 +42,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5B3966F922B9D9B7003541F9 /* HouseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HouseController.swift; path = ../../../Downloads/DemoMenuCustumSeguetrandition/DemoCustumSegue/HouseController.swift; sourceTree = "<group>"; };
 		5B3966FC22B9E6FC003541F9 /* UIView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + Extension.swift"; sourceTree = "<group>"; };
 		5B3E982C22BB72CB005ED6E0 /* CarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarViewController.swift; sourceTree = "<group>"; };
 		5B3E982E22BB72E6005ED6E0 /* ComputerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComputerViewController.swift; sourceTree = "<group>"; };
@@ -50,6 +49,7 @@
 		5B3E983222BB730C005ED6E0 /* StudyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyViewController.swift; sourceTree = "<group>"; };
 		5B3E983422BB731A005ED6E0 /* WeddingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeddingViewController.swift; sourceTree = "<group>"; };
 		5B3E983622BB7329005ED6E0 /* BabyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyViewController.swift; sourceTree = "<group>"; };
+		5B3E985722BB7A55005ED6E0 /* HouseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseViewController.swift; sourceTree = "<group>"; };
 		5BB6DC2F22B75FAE00EFFAA7 /* CombackVietCombank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CombackVietCombank.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BB6DC3222B75FAE00EFFAA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BB6DC3422B75FAE00EFFAA7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -124,7 +124,7 @@
 			children = (
 				5BB6DC3222B75FAE00EFFAA7 /* AppDelegate.swift */,
 				5BB6DC3422B75FAE00EFFAA7 /* ViewController.swift */,
-				5B3966F922B9D9B7003541F9 /* HouseController.swift */,
+				5B3E985722BB7A55005ED6E0 /* HouseViewController.swift */,
 				5B3E982C22BB72CB005ED6E0 /* CarViewController.swift */,
 				5B3E982E22BB72E6005ED6E0 /* ComputerViewController.swift */,
 				5B3E983022BB72FE005ED6E0 /* TravelViewController.swift */,
@@ -293,11 +293,11 @@
 				5B3E983122BB72FE005ED6E0 /* TravelViewController.swift in Sources */,
 				5BB6DC3522B75FAE00EFFAA7 /* ViewController.swift in Sources */,
 				5B3E983322BB730C005ED6E0 /* StudyViewController.swift in Sources */,
+				5B3E985822BB7A55005ED6E0 /* HouseViewController.swift in Sources */,
 				5B3E982F22BB72E6005ED6E0 /* ComputerViewController.swift in Sources */,
 				5B3E983722BB7329005ED6E0 /* BabyViewController.swift in Sources */,
 				5BB6DC3322B75FAE00EFFAA7 /* AppDelegate.swift in Sources */,
 				5B3E983522BB731A005ED6E0 /* WeddingViewController.swift in Sources */,
-				5B3966FA22B9D9B7003541F9 /* HouseController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
