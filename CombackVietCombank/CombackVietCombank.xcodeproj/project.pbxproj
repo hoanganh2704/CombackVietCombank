@@ -22,6 +22,8 @@
 		5BB6DC3D22B75FAF00EFFAA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BB6DC3B22B75FAF00EFFAA7 /* LaunchScreen.storyboard */; };
 		5BB6DC4822B75FAF00EFFAA7 /* CombackVietCombankTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB6DC4722B75FAF00EFFAA7 /* CombackVietCombankTests.swift */; };
 		5BB6DC5322B75FB000EFFAA7 /* CombackVietCombankUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB6DC5222B75FB000EFFAA7 /* CombackVietCombankUITests.swift */; };
+		5BB9F3E622C359A500A1A1A7 /* InterestRateTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB9F3E522C359A500A1A1A7 /* InterestRateTableViewController.swift */; };
+		5BB9F3E822C359BD00A1A1A7 /* TimeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB9F3E722C359BD00A1A1A7 /* TimeTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,8 @@
 		5BB6DC4E22B75FB000EFFAA7 /* CombackVietCombankUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CombackVietCombankUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BB6DC5222B75FB000EFFAA7 /* CombackVietCombankUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombackVietCombankUITests.swift; sourceTree = "<group>"; };
 		5BB6DC5422B75FB000EFFAA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BB9F3E522C359A500A1A1A7 /* InterestRateTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestRateTableViewController.swift; sourceTree = "<group>"; };
+		5BB9F3E722C359BD00A1A1A7 /* TimeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +135,8 @@
 				5B3E983222BB730C005ED6E0 /* StudyViewController.swift */,
 				5B3E983422BB731A005ED6E0 /* WeddingViewController.swift */,
 				5B3E983622BB7329005ED6E0 /* BabyViewController.swift */,
+				5BB9F3E522C359A500A1A1A7 /* InterestRateTableViewController.swift */,
+				5BB9F3E722C359BD00A1A1A7 /* TimeTableViewController.swift */,
 				5BB6DC3622B75FAE00EFFAA7 /* Main.storyboard */,
 				5BB6DC3922B75FAF00EFFAA7 /* Assets.xcassets */,
 				5BB6DC3B22B75FAF00EFFAA7 /* LaunchScreen.storyboard */,
@@ -290,11 +296,13 @@
 			files = (
 				5B3E982D22BB72CB005ED6E0 /* CarViewController.swift in Sources */,
 				5B3966FD22B9E6FC003541F9 /* UIView + Extension.swift in Sources */,
+				5BB9F3E822C359BD00A1A1A7 /* TimeTableViewController.swift in Sources */,
 				5B3E983122BB72FE005ED6E0 /* TravelViewController.swift in Sources */,
 				5BB6DC3522B75FAE00EFFAA7 /* ViewController.swift in Sources */,
 				5B3E983322BB730C005ED6E0 /* StudyViewController.swift in Sources */,
 				5B3E985822BB7A55005ED6E0 /* HouseViewController.swift in Sources */,
 				5B3E982F22BB72E6005ED6E0 /* ComputerViewController.swift in Sources */,
+				5BB9F3E622C359A500A1A1A7 /* InterestRateTableViewController.swift in Sources */,
 				5B3E983722BB7329005ED6E0 /* BabyViewController.swift in Sources */,
 				5BB6DC3322B75FAE00EFFAA7 /* AppDelegate.swift in Sources */,
 				5B3E983522BB731A005ED6E0 /* WeddingViewController.swift in Sources */,
@@ -472,16 +480,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CombackVietCombank/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = abc.CombackVietCombank;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -489,16 +501,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CombackVietCombank/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = abc.CombackVietCombank;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

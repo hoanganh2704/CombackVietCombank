@@ -8,7 +8,7 @@
 
 import UIKit
 
-class HouseViewController : UIViewController {
+class HouseViewController : UIViewController, UIPopoverPresentationControllerDelegate {
     
     @IBOutlet var buttonView: UIView!
     
@@ -21,5 +21,15 @@ class HouseViewController : UIViewController {
     @IBAction func DissmisTapped(_ sender: Any) {
         dismiss(animated: true, completion: nil)
     }
-}
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let VC = segue.destination
+        let PC = VC.popoverPresentationController
+        PC?.delegate = self
+        PC?.sourceRect = CGRect(origin: showView.center, size: .zero)
+    }
+    func adaptivePresentationStyle(for controller: UIPresentationController) -> UIModalPresentationStyle {
+        return .none
+    }
+    }
+
 
