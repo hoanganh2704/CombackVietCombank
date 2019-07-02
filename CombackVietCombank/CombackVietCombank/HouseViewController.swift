@@ -10,6 +10,8 @@ import UIKit
 
 class HouseViewController : UIViewController, UIPopoverPresentationControllerDelegate {
     
+    @IBOutlet weak var TextFieldAccumulated: UITextField!
+    @IBOutlet weak var AccumumlatedLabel: UILabel!
     @IBOutlet var buttonView: UIView!
     
     @IBOutlet var showView: UIView!
